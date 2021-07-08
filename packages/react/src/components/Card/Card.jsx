@@ -229,6 +229,7 @@ export const defaultProps = {
   onBlur: undefined,
   tabIndex: undefined,
   testID: CardWrapper.defaultProps.testID,
+  customToolbarContent: undefined,
 };
 
 /** Dumb component that renders the card basics */
@@ -261,6 +262,7 @@ const Card = (props) => {
     values,
     testID,
     contentClassName,
+    customToolbarContent,
     ...others
   } = props;
   // Checks size property against new size naming convention and reassigns to closest supported size if necessary.
@@ -333,19 +335,21 @@ const Card = (props) => {
         <SizeMe.SizeMe monitorHeight>
           {({ size: cardSize }) => {
             // support passing the card toolbar through to the custom card
-            const cardToolbar = hasToolbarActions ? (
-              <CardToolbar
-                width={cardSize.width}
-                availableActions={mergedAvailableActions}
-                renderExpandIcon={renderExpandIcon}
-                i18n={strings}
-                isEditable={isEditable}
-                isExpanded={isExpanded}
-                timeRange={timeRange}
-                timeRangeOptions={timeRangeOptions}
-                onCardAction={cachedOnCardAction}
-              />
-            ) : null;
+            const cardToolbar =
+              hasToolbarActions || customToolbarContent ? (
+                <CardToolbar
+                  width={cardSize.width}
+                  availableActions={mergedAvailableActions}
+                  renderExpandIcon={renderExpandIcon}
+                  i18n={strings}
+                  isEditable={isEditable}
+                  isExpanded={isExpanded}
+                  timeRange={timeRange}
+                  timeRangeOptions={timeRangeOptions}
+                  onCardAction={cachedOnCardAction}
+                  customToolbarContent={customToolbarContent}
+                />
+              ) : null;
 
             return (
               <CardWrapper

@@ -44,7 +44,9 @@ const propTypes = {
   /** Generates the available time range selection options. Each option should include 'this' or 'last'.
    * i.e. { thisWeek: 'This week', lastWeek: 'Last week'}
    */
-  timeRangeOptions: TimeRangeOptionsPropTypes, // eslint-disable-line react/require-default-props
+  timeRangeOptions: TimeRangeOptionsPropTypes,
+  /** Optionally adds React nodes to the right of the existing rendered toolbar nodes */
+  customToolbarContent: PropTypes.node,
   i18n: PropTypes.shape({
     last24Hours: PropTypes.string,
     last7Days: PropTypes.string,
@@ -70,6 +72,7 @@ const defaultProps = {
   renderExpandIcon: Popup16,
   className: null,
   timeRangeOptions: null,
+  customToolbarContent: null,
   i18n: {
     last24Hours: 'Last 24 hours',
     last7Days: 'Last 7 days',
@@ -100,6 +103,7 @@ const CardToolbar = ({
   timeRangeOptions: timeRangeOptionsProp,
   onCardAction,
   className,
+  customToolbarContent,
 }) => {
   const mergedI18n = { ...defaultProps.i18n, ...i18n };
   // maps the timebox internal label to a translated string
@@ -166,6 +170,7 @@ const CardToolbar = ({
     </div>
   ) : (
     <div className={classnames(className, `${iotPrefix}--card--toolbar`)}>
+      {customToolbarContent}
       {availableActions.range ? (
         <CardRangePicker
           width={width}

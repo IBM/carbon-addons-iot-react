@@ -743,4 +743,6 @@ export const CardPropTypes = {
    * This allows additional information to be passed to be used in the Card Editor for this type.
    * You need to return an array of child objects with a header: {title, tooltip: {tooltipText: PropTypes.string}} and content element to render * */
   renderEditContent: PropTypes.func,
+  /** Optionally adds React nodes to the right of the existing rendered toolbar nodes */
+  customToolbarContent: PropTypes.node,
 };

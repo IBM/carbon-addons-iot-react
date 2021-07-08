@@ -5836,6 +5836,9 @@ Map {
       "contentClassName": Object {
         "type": "string",
       },
+      "customToolbarContent": Object {
+        "type": "node",
+      },
       "dashboardBreakpoints": Object {
         "args": Array [
           Object {
@@ -10752,6 +10755,7 @@ Map {
           },
         },
       },
+      "customToolbarContent": undefined,
       "dashboardBreakpoints": Object {
         "lg": 1056,
         "max": 1584,
@@ -11289,6 +11293,9 @@ Map {
       },
       "contentClassName": Object {
         "type": "string",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [
@@ -12088,6 +12095,9 @@ Map {
       },
       "contentClassName": Object {
         "type": "string",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [
@@ -13070,6 +13080,9 @@ Map {
       },
       "customFormatter": Object {
         "type": "func",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [
@@ -14150,6 +14163,9 @@ Map {
       "contentClassName": Object {
         "type": "string",
       },
+      "customToolbarContent": Object {
+        "type": "node",
+      },
       "dashboardBreakpoints": Object {
         "args": Array [
           Object {
@@ -14924,6 +14940,9 @@ Map {
       },
       "contentClassName": Object {
         "type": "string",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [
@@ -15922,6 +15941,9 @@ Map {
       "contentClassName": Object {
         "type": "string",
       },
+      "customToolbarContent": Object {
+        "type": "node",
+      },
       "dashboardBreakpoints": Object {
         "args": Array [
           Object {
@@ -16792,6 +16814,9 @@ Map {
       "contentClassName": Object {
         "type": "string",
       },
+      "customToolbarContent": Object {
+        "type": "node",
+      },
       "dashboardBreakpoints": Object {
         "args": Array [
           Object {
@@ -17612,6 +17637,9 @@ Map {
       },
       "contentClassName": Object {
         "type": "string",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [
@@ -20961,6 +20989,9 @@ Map {
       "contentClassName": Object {
         "type": "string",
       },
+      "customToolbarContent": Object {
+        "type": "node",
+      },
       "dashboardBreakpoints": Object {
         "args": Array [
           Object {
@@ -22018,6 +22049,9 @@ Map {
       },
       "contentClassName": Object {
         "type": "string",
+      },
+      "customToolbarContent": Object {
+        "type": "node",
       },
       "dashboardBreakpoints": Object {
         "args": Array [

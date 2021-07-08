@@ -6,6 +6,7 @@ import { Tree16 } from '@carbon/icons-react';
 import { CARD_SIZES } from '../../constants/LayoutConstants';
 import { getCardMinSize } from '../../utils/componentUtilityFunctions';
 import Table from '../Table/Table';
+import Button from '../Button/Button';
 
 import CardREADME from './Card.mdx';
 import Card from './Card';
@@ -287,9 +288,14 @@ export const ImplementingACustomCard = () => {
         id="mycard"
         size={size}
         values={[{ timestamp: 12341231231, value1: 'my value' }]}
-        availableActions={{ range: size !== CARD_SIZES.SMALL, expand: true }}
+        availableActions={{ range: false, expand: true }}
         onCardAction={action('onCardAction')}
         hideHeader
+        customToolbarContent={
+          <Button hasIconOnly kind="ghost">
+            Custom
+          </Button>
+        }
       >
         {!isEditable
           ? (_$, { cardToolbar, values }) => (
@@ -322,7 +328,6 @@ export const ImplementingACustomCard = () => {
 };
 
 ImplementingACustomCard.storyName = 'implementing a custom card';
-
 ImplementingACustomCard.parameters = {
   inline: true,
   source: true,
@@ -332,6 +337,7 @@ ImplementingACustomCard.parameters = {
    - Create a new card component that uses the base Card component
    - See the simple SampleCustomCard in the source code of this story for an example
    - If you want to hide the title/toolbar, do not pass a title prop
+   - If you want to add custom toolbar content such as a different date range selector, pass the node as a customToolbarContent prop. The node will be placed to the right of the other toolbar content
    - (Optionally, if you want to use the card in a Dashboard) Extend the Card Renderer so the Dashboard knows how to render your card type
    - (Optionally, if you want to use the card in a Dashboard) Create a validator for this card type within "utils/schemas/validators" and add it to the validateDashboardJSON function used to validate dashboards on import.
 

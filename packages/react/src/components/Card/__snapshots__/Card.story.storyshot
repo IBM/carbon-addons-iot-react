@@ -217,50 +217,18 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/C
               <div
                 className="iot--card--toolbar"
               >
-                <div
-                  className="iot--card--toolbar-date-range-wrapper"
+                <button
+                  className="iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+                  data-testid="Button"
+                  disabled={false}
+                  tabIndex={0}
+                  type="button"
                 >
-                  <button
-                    aria-expanded={false}
-                    aria-haspopup={true}
-                    aria-label="open and close list of options"
-                    className="iot--card--toolbar-date-range-action bx--overflow-menu"
-                    onClick={[Function]}
-                    onClose={[Function]}
-                    onKeyDown={[Function]}
-                    open={false}
-                    title="Select time range"
-                    type="button"
-                  >
-                    <svg
-                      aria-label="Select time range"
-                      className="bx--overflow-menu__icon"
-                      fill="currentColor"
-                      focusable="false"
-                      height={16}
-                      onClick={[Function]}
-                      onKeyDown={[Function]}
-                      preserveAspectRatio="xMidYMid meet"
-                      role="img"
-                      viewBox="0 0 32 32"
-                      width={16}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M21,30a8,8,0,1,1,8-8A8,8,0,0,1,21,30Zm0-14a6,6,0,1,0,6,6A6,6,0,0,0,21,16Z"
-                      />
-                      <path
-                        d="M22.59 25L20 22.41 20 18 22 18 22 21.59 24 23.59 22.59 25z"
-                      />
-                      <path
-                        d="M28,6a2,2,0,0,0-2-2H22V2H20V4H12V2H10V4H6A2,2,0,0,0,4,6V26a2,2,0,0,0,2,2h4V26H6V6h4V8h2V6h8V8h2V6h4v6h2Z"
-                      />
-                      <title>
-                        Select time range
-                      </title>
-                    </svg>
-                  </button>
-                </div>
+                  <span
+                    className="bx--assistive-text"
+                  />
+                  Custom
+                </button>
                 <button
                   aria-pressed={null}
                   className="iot--card--toolbar-action iot--card--toolbar-svg-wrapper bx--btn--icon-only bx--btn bx--btn--ghost"
