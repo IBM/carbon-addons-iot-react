@@ -5,13 +5,14 @@ import userEvent from '@testing-library/user-event';
 
 import '@testing-library/jest-dom/extend-expect';
 import dayjs from '../../utils/dayjs';
-
-import DateTimePicker, {
+import {
   INTERVAL_VALUES,
   RELATIVE_VALUES,
   PRESET_VALUES,
   PICKER_KINDS,
-} from './DateTimePicker';
+} from '../../constants/DateConstants';
+
+import DateTimePicker from './DateTimePicker';
 import { defaultAbsoluteValue, defaultRelativeValue } from './DateTimePicker.story';
 
 const defaultPresets = [
@@ -40,6 +41,7 @@ describe('DateTimePicker', () => {
 
   afterEach(() => {
     console.error.mockClear();
+    jest.clearAllTimers();
   });
 
   beforeAll(() => {
@@ -74,6 +76,7 @@ describe('DateTimePicker', () => {
         }}
       />
     );
+    jest.runAllTimers();
     expect(console.error).toHaveBeenCalledTimes(0);
   });
 
@@ -88,14 +91,14 @@ describe('DateTimePicker', () => {
         }}
       />
     );
+    jest.runAllTimers();
     expect(console.error).toHaveBeenCalledTimes(1);
   });
 
   it('should have the first preset as value', () => {
-    const wrapper = mount(<DateTimePicker {...dateTimePickerProps} i18n={i18n} />);
+    render(<DateTimePicker {...dateTimePickerProps} i18n={i18n} />);
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field')).toHaveLength(1);
-    expect(wrapper.find('.bx--tooltip__trigger').text()).toEqual(PRESET_VALUES[0].label);
+    expect(screen.getByText(PRESET_VALUES[0].label)).toBeVisible();
   });
 
   it('should change to another preset value when clicked', () => {
@@ -114,13 +117,18 @@ describe('DateTimePicker', () => {
         ]}
       />
     );
-    userEvent.click(screen.getByTestId('date-time-picker__field'));
+    jest.runAllTimers();
+    // open the dropdown
+    // the first element is the button. the second element is the svg
+    userEvent.click(screen.getAllByLabelText('Calendar')[0]);
+    // select last 1 hour
     userEvent.click(screen.getByText(/Last 1 hour/));
-    expect(screen.getByTitle(/Last 1 hour/)).toBeInTheDocument();
+    // check for the selected text
+    expect(screen.getAllByText(/Last 1 hour/)).toHaveLength(2);
   });
 
   it('should show the user defined tooltip for preset', () => {
-    const wrapper = mount(
+    render(
       <DateTimePicker
         {...dateTimePickerProps}
         renderPresetTooltipText={() => 'User tooltip'}
@@ -128,26 +136,27 @@ describe('DateTimePicker', () => {
       />
     );
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field')).toHaveLength(1);
-    expect(wrapper.find('.bx--assistive-text').text()).toEqual('User tooltip');
+    expect(screen.getByText('User tooltip')).toBeInTheDocument();
   });
 
   it('should call onApply', () => {
-    const wrapper = mount(<DateTimePicker {...dateTimePickerProps} preset={defaultPresets} />);
-    wrapper.find('.iot--date-time-picker__menu-btn-apply').first().simulate('click');
+    render(<DateTimePicker {...dateTimePickerProps} preset={defaultPresets} />);
     jest.runAllTimers();
+    userEvent.click(screen.getAllByLabelText('Calendar')[0]);
+    userEvent.click(screen.getByText('Apply'));
     expect(dateTimePickerProps.onApply).toHaveBeenCalled();
   });
 
   it('onCancel should be called', () => {
-    const wrapper = mount(<DateTimePicker {...dateTimePickerProps} />);
-    wrapper.find('.iot--date-time-picker__menu-btn-cancel').first().simulate('click');
+    render(<DateTimePicker {...dateTimePickerProps} />);
     jest.runAllTimers();
+    userEvent.click(screen.getAllByLabelText('Calendar')[0]);
+    userEvent.click(screen.getByText('Cancel'));
     expect(dateTimePickerProps.onCancel).toHaveBeenCalled();
   });
 
   it('should render with a predefined preset', () => {
-    const wrapper = mount(
+    render(
       <DateTimePicker
         {...dateTimePickerProps}
         defaultValue={{
@@ -157,46 +166,43 @@ describe('DateTimePicker', () => {
       />
     );
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field')).toHaveLength(1);
-    expect(wrapper.find('.bx--tooltip__trigger').text()).toEqual(PRESET_VALUES[1].label);
+    expect(screen.getByText(PRESET_VALUES[1].label)).toBeVisible();
   });
 
   it('should render with a predefined relative range', () => {
-    const wrapper = mount(
-      <DateTimePicker {...dateTimePickerProps} defaultValue={defaultRelativeValue} />
-    );
+    render(<DateTimePicker {...dateTimePickerProps} defaultValue={defaultRelativeValue} />);
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field')).toHaveLength(1);
-
-    wrapper
-      .find('.bx--select-input')
-      .first()
-      .simulate('change', { target: { value: INTERVAL_VALUES.DAYS } });
-
-    wrapper
-      .find('.bx--select-input')
-      .at(1)
-      .simulate('change', { target: { value: RELATIVE_VALUES.YESTERDAY } });
+    // first open the menu
+    userEvent.click(screen.getAllByLabelText('Calendar')[0]);
+    // change the last interval
+    fireEvent.change(screen.getAllByLabelText('Select')[0], {
+      target: { value: INTERVAL_VALUES.DAYS },
+    });
+    // change the relative to
+    fireEvent.change(screen.getAllByLabelText('Select')[1], {
+      target: { value: RELATIVE_VALUES.YESTERDAY },
+    });
 
     const today = dayjs();
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field').first().text()).toEqual(
-      `${today.format('YYYY-MM-DD')} 13:10 to ${today.format('YYYY-MM-DD')} 13:30`
-    );
 
-    wrapper.find('.bx--number__control-btn.up-icon').first().simulate('click');
+    expect(
+      screen.getByText(`${today.format('YYYY-MM-DD')} 13:10 to ${today.format('YYYY-MM-DD')} 13:30`)
+    ).toBeVisible();
+
+    userEvent.click(screen.getByLabelText('Increment hours'));
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field').first().text()).toEqual(
-      `${today.format('YYYY-MM-DD')} 13:09 to ${today.format('YYYY-MM-DD')} 13:30`
-    );
+    expect(
+      screen.getByText(`${today.format('YYYY-MM-DD')} 13:09 to ${today.format('YYYY-MM-DD')} 13:30`)
+    ).toBeVisible();
 
-    wrapper.find('.iot--time-picker__controls--btn.up-icon').first().simulate('click');
+    userEvent.click(screen.getByLabelText('Increment hours'));
     jest.runAllTimers();
-    expect(wrapper.find('.iot--date-time-picker__field').first().text()).toEqual(
-      `${today.format('YYYY-MM-DD')} 14:09 to ${today.format('YYYY-MM-DD')} 14:30`
-    );
+    expect(
+      screen.getByText(`${today.format('YYYY-MM-DD')} 14:09 to ${today.format('YYYY-MM-DD')} 14:30`)
+    ).toBeVisible();
 
-    wrapper.find('.iot--date-time-picker__menu-btn-apply').first().simulate('click');
+    userEvent.click(screen.getByText('Apply'));
     jest.runAllTimers();
     expect(dateTimePickerProps.onApply).toHaveBeenCalled();
   });

@@ -81,16 +81,6 @@ export TimeSeriesCard from './components/TimeSeriesCard/TimeSeriesCard';
 export ImageCard from './components/ImageCard/ImageCard';
 export TableCard from './components/TableCard/TableCard';
 export GaugeCard from './components/GaugeCard/GaugeCard';
-export {
-  CARD_TYPES,
-  CARD_SIZES,
-  CARD_ACTIONS,
-  DASHBOARD_BREAKPOINTS,
-  DASHBOARD_SIZES,
-  TIME_SERIES_TYPES,
-  BAR_CHART_TYPES,
-  DASHBOARD_EDITOR_CARD_TYPES,
-} from './constants/LayoutConstants';
 export { DragAndDrop } from './utils/DragAndDropUtils';
 
 // Experimental
@@ -353,3 +343,16 @@ export { determineMaxValueCardAttributeCount } from './components/ValueCard/valu
 export { csvDownloadHandler } from './utils/componentUtilityFunctions';
 
 export * from './icons/components';
+
+// Constants
+export {
+  CARD_TYPES,
+  CARD_SIZES,
+  CARD_ACTIONS,
+  DASHBOARD_BREAKPOINTS,
+  DASHBOARD_SIZES,
+  TIME_SERIES_TYPES,
+  BAR_CHART_TYPES,
+  DASHBOARD_EDITOR_CARD_TYPES,
+} from './constants/LayoutConstants';
+export { PICKER_KINDS } from './constants/DateConstants';

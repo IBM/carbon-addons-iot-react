@@ -1,28 +1,17 @@
 @import '../../globals/vars';
 @import '~@carbon/motion/scss/motion.scss';
 
-.#{$iot-prefix}--date-time-picker {
-  padding: 0 $spacing-05 $spacing-05;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .#{$iot-prefix}--date-time-picker__wrapper {
-  width: 20rem;
+  width: var(--wrapper-width);
+
+  .#{$iot-prefix}--flyout-menu--content {
+    padding: 0;
+  }
 
   .#{$prefix}--tooltip__trigger.#{$prefix}--tooltip__trigger--definition {
     font-size: 100%;
     border-bottom: none;
     letter-spacing: unset;
-  }
-
-  .#{$prefix}--date-picker--range {
-    position: absolute;
-  }
-
-  .#{$prefix}--date-picker-container {
-    opacity: 0;
   }
 
   .flatpickr-calendar.open {
@@ -66,48 +55,22 @@
     }
   }
 
-  .#{$iot-prefix}--date-time-picker__box {
-    outline-offset: -0.125rem;
-    position: relative;
-    list-style: none;
-    display: block;
+  .#{$iot-prefix}--date-time-picker__box--full {
     background-color: $ui-01;
-    border: none;
-    border-bottom: 1px solid $carbon--gray-50;
-    width: 100%;
-    height: $spacing-08;
-    cursor: pointer;
     color: $carbon--gray-100;
-    outline: 0.125rem solid transparent;
-    transition: background-color $duration--fast-01 carbon--motion(standard);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     .#{$iot-prefix}--date-time-picker__field {
-      background: none;
-      appearance: none;
-      border: 0;
-      width: 100%;
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      vertical-align: top;
-      height: calc(100% + 1px);
-      padding: 0 $spacing-09 0 $spacing-05;
-      cursor: pointer;
-      outline: none;
-      white-space: nowrap;
+      padding-left: $spacing-05;
+
       & > span {
         overflow: hidden;
         text-overflow: ellipsis;
       }
-      .#{$iot-prefix}--date-time-picker__icon {
-        position: absolute;
-        top: 0;
-        right: $spacing-05;
-        bottom: 0;
-        height: 100%;
-        transition: transform $duration--fast-01 carbon--motion(standard);
-        cursor: pointer;
-      }
     }
+
     .#{$iot-prefix}--date-time-picker__menu {
       display: none;
       cursor: default;
@@ -121,70 +84,70 @@
       &.#{$iot-prefix}--date-time-picker__menu-expanded {
         display: block;
       }
-
-      .#{$iot-prefix}--date-time-picker__menu-scroll {
-        overflow-y: auto;
-        padding: $spacing-04 0;
-
-        .#{$prefix}--fieldset {
-          margin-bottom: $spacing-lg;
-          padding: 0 $spacing-baseline;
-        }
-
-        .#{$iot-prefix}--date-time-picker__fields-wrapper {
-          display: flex;
-          align-items: flex-end;
-          .#{$prefix}--label {
-            margin-bottom: 0;
-          }
-        }
-
-        .#{$iot-prefix}--date-time-picker__no-formgroup {
-          margin-bottom: $spacing-05;
-        }
-
-        &.#{$iot-prefix}--date-time-picker__menu-formgroup {
-          display: block;
-        }
-
-        .#{$iot-prefix}--date-time-picker__listitem {
-          padding: $spacing-04 $spacing-baseline;
-          cursor: pointer;
-          border-left: 2px solid transparent;
-        }
-
-        .#{$iot-prefix}--date-time-picker__listitem--preset {
-          &:hover {
-            background-color: $carbon--gray-20;
-          }
-          &.#{$iot-prefix}--date-time-picker__listitem--preset-selected {
-            background-color: $carbon--gray-20;
-            border-left-color: $carbon--blue-60;
-          }
-        }
-
-        .#{$iot-prefix}--date-time-picker__listitem--current {
-          color: $carbon--gray-60;
-          cursor: default;
-        }
-
-        .#{$iot-prefix}--date-time-picker__listitem--custom {
-          color: $carbon--blue-60;
-        }
-      }
-
-      .#{$iot-prefix}--date-time-picker__menu-btn-set {
-        display: flex;
-
-        .#{$iot-prefix}--date-time-picker__menu-btn {
-          flex-grow: 1;
-        }
-      }
     }
   }
 
   .#{$iot-prefix}--date-time-picker__box--light {
     background-color: $field-02;
+  }
+
+  .#{$iot-prefix}--date-time-picker__menu-scroll {
+    overflow-y: auto;
+
+    .#{$prefix}--fieldset {
+      margin-bottom: $spacing-lg;
+      padding: 0 $spacing-baseline;
+    }
+
+    .#{$iot-prefix}--date-time-picker__fields-wrapper {
+      display: flex;
+      align-items: flex-end;
+      .#{$prefix}--label {
+        margin-bottom: 0;
+      }
+    }
+
+    .#{$iot-prefix}--date-time-picker__no-formgroup {
+      margin-bottom: $spacing-05;
+    }
+
+    &.#{$iot-prefix}--date-time-picker__menu-formgroup {
+      display: block;
+    }
+
+    .#{$iot-prefix}--date-time-picker__listitem {
+      padding: $spacing-04 $spacing-baseline;
+      cursor: pointer;
+      border-left: 2px solid transparent;
+      border-bottom: 1px solid $ui-03;
+    }
+
+    .#{$iot-prefix}--date-time-picker__listitem--preset {
+      &:hover {
+        background-color: $carbon--gray-20;
+      }
+      &.#{$iot-prefix}--date-time-picker__listitem--preset-selected {
+        background-color: $carbon--gray-20;
+        border-left-color: $carbon--blue-60;
+      }
+    }
+
+    .#{$iot-prefix}--date-time-picker__listitem--current {
+      color: $carbon--gray-60;
+      cursor: default;
+    }
+
+    .#{$iot-prefix}--date-time-picker__listitem--custom {
+      color: $carbon--blue-60;
+    }
+  }
+
+  .#{$iot-prefix}--date-time-picker__menu-btn-set {
+    display: flex;
+
+    .#{$iot-prefix}--date-time-picker__menu-btn {
+      flex-grow: 1;
+    }
   }
 }
 
@@ -206,10 +169,6 @@ html[dir='rtl'] {
       .#{$iot-prefix}--date-time-picker__field {
         padding-right: $spacing-05;
         padding-left: $spacing-09;
-        .#{$iot-prefix}--date-time-picker__icon {
-          right: unset;
-          left: $spacing-05;
-        }
       }
       .#{$iot-prefix}--date-time-picker__menu {
         .#{$iot-prefix}--date-time-picker__menu-scroll {

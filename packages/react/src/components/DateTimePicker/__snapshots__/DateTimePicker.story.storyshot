@@ -1,341 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Default 1`] = `
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Default 1`] = `
 <div
   className="storybook-container"
 >
   <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
     style={
       Object {
-        "margin": "1.5rem",
-        "width": "1056px",
+        "--wrapper-width": "20rem",
       }
     }
   >
     <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
+      className="iot--date-time-picker__box--full"
     >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
       >
         <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
+          className="bx--tooltip--definition bx--tooltip--a11y"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
+          <button
+            aria-describedby="definition-tooltip-2"
+            className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
+            onFocus={[Function]}
+            type="button"
+          >
+            Last 30 minutes
+          </button>
           <div
-            className="bx--tooltip--definition bx--tooltip--a11y"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+            className="bx--assistive-text"
+            id="definition-tooltip-2"
+            role="tooltip"
           >
-            <button
-              aria-describedby="definition-tooltip-2"
-              className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
-              onFocus={[Function]}
-              type="button"
-            >
-              Last 30 minutes
-            </button>
-            <div
-              className="bx--assistive-text"
-              id="definition-tooltip-2"
-              role="tooltip"
-            >
-              2018-10-28 07:04 to Now
-            </div>
-          </div>
-          <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
-            fill="currentColor"
-            focusable="false"
-            height={16}
-            preserveAspectRatio="xMidYMid meet"
-            role="img"
-            viewBox="0 0 32 32"
-            width={16}
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-            />
-          </svg>
-        </div>
-        <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
-        >
-          <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <ol
-              className="bx--list--ordered"
-            >
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--current"
-              >
-                2018-10-28 07:04 to Now
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--custom"
-                onClick={[Function]}
-              >
-                Custom Range
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset iot--date-time-picker__listitem--preset-selected"
-                onClick={[Function]}
-              >
-                Last 30 minutes
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 1 hour
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 6 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 12 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 24 hours
-              </li>
-            </ol>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-cancel bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Cancel
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
+            2018-10-28 07:04 to Now
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Light version 1`] = `
-<div
-  className="storybook-container"
->
-  <div
-    style={
-      Object {
-        "margin": "1.5rem",
-        "width": "1056px",
-      }
-    }
-  >
-    <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
-    >
       <div
-        className="iot--date-time-picker__box iot--date-time-picker__box--light"
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
       >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
           onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
           tabIndex={0}
-        >
-          <div
-            className="bx--tooltip--definition bx--tooltip--a11y"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            <button
-              aria-describedby="definition-tooltip-10"
-              className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
-              onFocus={[Function]}
-              type="button"
-            >
-              Last 30 minutes
-            </button>
-            <div
-              className="bx--assistive-text"
-              id="definition-tooltip-10"
-              role="tooltip"
-            >
-              2018-10-28 07:04 to Now
-            </div>
-          </div>
-          <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
-            fill="currentColor"
-            focusable="false"
-            height={16}
-            preserveAspectRatio="xMidYMid meet"
-            role="img"
-            viewBox="0 0 32 32"
-            width={16}
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-            />
-          </svg>
-        </div>
-        <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
-        >
-          <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <ol
-              className="bx--list--ordered"
-            >
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--current"
-              >
-                2018-10-28 07:04 to Now
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--custom"
-                onClick={[Function]}
-              >
-                Custom Range
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset iot--date-time-picker__listitem--preset-selected"
-                onClick={[Function]}
-              >
-                Last 30 minutes
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 1 hour
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 6 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 12 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 24 hours
-              </li>
-            </ol>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-cancel bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Cancel
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Locale 1`] = `
-<div
-  className="storybook-container"
->
-  <div
-    style={
-      Object {
-        "margin": "1.5rem",
-        "width": "1056px",
-      }
-    }
-  >
-    <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker25-iot--date-time-picker__wrapper"
-    >
-      <div
-        className="iot--date-time-picker__box "
-      >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
+          type="button"
         >
           <span
-            title="01/04/2020 12:34 to 06/04/2020 10:49"
+            className="bx--assistive-text"
           >
-            01/04/2020 12:34 to 06/04/2020 10:49
+            Helpful description
           </span>
           <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
             fill="currentColor"
             focusable="false"
             height={16}
@@ -349,412 +82,27 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
               d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
             />
           </svg>
-        </div>
+        </button>
         <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
         >
           <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <div>
-              <fieldset
-                className="bx--fieldset iot--date-time-picker__menu-formgroup"
-              >
-                <legend
-                  className="bx--label iot--date-time-picker__menu-formgroup"
-                >
-                  Custom range
-                </legend>
-                <div
-                  className="bx--form-item"
-                >
-                  <fieldset
-                    className="bx--radio-button-group bx--radio-button-group--label-right"
-                  >
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={false}
-                        className="bx--radio-button"
-                        id="datetimepicker25-relative"
-                        name="datetimepicker25-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="RELATIVE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker25-relative"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Relative
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={true}
-                        className="bx--radio-button"
-                        id="datetimepicker25-absolute"
-                        name="datetimepicker25-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="ABSOLUTE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker25-absolute"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Absolute
-                        </span>
-                      </label>
-                    </div>
-                  </fieldset>
-                </div>
-              </fieldset>
-              <div
-                data-testid="date-time-picker-datepicker"
-              >
-                <div
-                  className="iot--date-time-picker__datepicker"
-                >
-                  <div
-                    className="bx--form-item"
-                  >
-                    <div
-                      className="bx--date-picker bx--date-picker--range bx--date-picker--nolabel"
-                      onClose={[Function]}
-                    >
-                      <div
-                        className="bx--date-picker-container bx--date-picker--nolabel"
-                      >
-                        <div
-                          className="bx--date-picker-input__wrapper"
-                        >
-                          <input
-                            className="bx--date-picker__input"
-                            disabled={false}
-                            id="datetimepicker25-date-picker-input-start"
-                            onChange={[Function]}
-                            onClick={[Function]}
-                            pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
-                            type="text"
-                          />
-                          <svg
-                            aria-hidden={true}
-                            className="bx--date-picker__icon"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            onClick={[Function]}
-                            preserveAspectRatio="xMidYMid meet"
-                            role="img"
-                            viewBox="0 0 32 32"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <div
-                        className="bx--date-picker-container bx--date-picker--nolabel"
-                      >
-                        <div
-                          className="bx--date-picker-input__wrapper"
-                        >
-                          <input
-                            className="bx--date-picker__input"
-                            disabled={false}
-                            id="datetimepicker25-date-picker-input-end"
-                            onChange={[Function]}
-                            onClick={[Function]}
-                            pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
-                            type="text"
-                          />
-                          <svg
-                            aria-hidden={true}
-                            className="bx--date-picker__icon"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            onClick={[Function]}
-                            preserveAspectRatio="xMidYMid meet"
-                            role="img"
-                            viewBox="0 0 32 32"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <fieldset
-                  className="bx--fieldset iot--date-time-picker__menu-formgroup"
-                >
-                  <legend
-                    className="bx--label iot--date-time-picker__menu-formgroup"
-                  >
-                    
-                  </legend>
-                  <div
-                    className="iot--date-time-picker__fields-wrapper"
-                  >
-                    <div
-                      className="iot--time-picker__wrapper iot--time-picker__wrapper--with-spinner"
-                    >
-                      <div
-                        className="bx--form-item"
-                      >
-                        <label
-                          className="bx--label"
-                          htmlFor="datetimepicker25-start-time"
-                        >
-                          Start time
-                        </label>
-                        <div
-                          className="bx--time-picker"
-                        >
-                          <div
-                            className="bx--time-picker__input"
-                          >
-                            <input
-                              autoComplete="off"
-                              className="bx--time-picker__input-field bx--text-input"
-                              disabled={false}
-                              id="datetimepicker25-start-time"
-                              maxLength={5}
-                              onBlur={[Function]}
-                              onChange={[Function]}
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              pattern="(1[012]|[1-9]):[0-5][0-9](\\\\s)?"
-                              placeholder="hh:mm"
-                              type="text"
-                              value="12:34"
-                            />
-                          </div>
-                          <div
-                            className="iot--time-picker__controls"
-                          >
-                            <button
-                              aria-atomic="true"
-                              aria-label="Increment hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn up-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Increment hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M0 4L4 0 8 4z"
-                                />
-                              </svg>
-                            </button>
-                            <button
-                              aria-atomic="true"
-                              aria-label="Decrement hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn down-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Decrement hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 0L4 4 0 0z"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="iot--time-picker__wrapper iot--time-picker__wrapper--with-spinner"
-                    >
-                      <div
-                        className="bx--form-item"
-                      >
-                        <label
-                          className="bx--label"
-                          htmlFor="datetimepicker25-end-time"
-                        >
-                          End time
-                        </label>
-                        <div
-                          className="bx--time-picker"
-                        >
-                          <div
-                            className="bx--time-picker__input"
-                          >
-                            <input
-                              autoComplete="off"
-                              className="bx--time-picker__input-field bx--text-input"
-                              disabled={false}
-                              id="datetimepicker25-end-time"
-                              maxLength={5}
-                              onBlur={[Function]}
-                              onChange={[Function]}
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              pattern="(1[012]|[1-9]):[0-5][0-9](\\\\s)?"
-                              placeholder="hh:mm"
-                              type="text"
-                              value="10:49"
-                            />
-                          </div>
-                          <div
-                            className="iot--time-picker__controls"
-                          >
-                            <button
-                              aria-atomic="true"
-                              aria-label="Increment hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn up-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Increment hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M0 4L4 0 8 4z"
-                                />
-                              </svg>
-                            </button>
-                            <button
-                              aria-atomic="true"
-                              aria-label="Decrement hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn down-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Decrement hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 0L4 4 0 0z"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
-            </div>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-back bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Back
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
-          </div>
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
         </div>
       </div>
     </div>
@@ -762,42 +110,49 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
 </div>
 `;
 
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Selected absolute 1`] = `
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Icon only 1`] = `
 <div
   className="storybook-container"
 >
   <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
     style={
       Object {
-        "margin": "1.5rem",
-        "width": "1056px",
+        "--wrapper-width": "3rem",
       }
     }
   >
     <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
+      className="iot--date-time-picker__box--full"
     >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
       >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
           onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
           tabIndex={0}
+          type="button"
         >
           <span
-            title="2020-04-01 12:34 to 2020-04-06 10:49"
+            className="bx--assistive-text"
           >
-            2020-04-01 12:34 to 2020-04-06 10:49
+            Helpful description
           </span>
           <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
             fill="currentColor"
             focusable="false"
             height={16}
@@ -811,412 +166,27 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
               d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
             />
           </svg>
-        </div>
+        </button>
         <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
         >
           <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <div>
-              <fieldset
-                className="bx--fieldset iot--date-time-picker__menu-formgroup"
-              >
-                <legend
-                  className="bx--label iot--date-time-picker__menu-formgroup"
-                >
-                  Custom range
-                </legend>
-                <div
-                  className="bx--form-item"
-                >
-                  <fieldset
-                    className="bx--radio-button-group bx--radio-button-group--label-right"
-                  >
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={false}
-                        className="bx--radio-button"
-                        id="datetimepicker-relative"
-                        name="datetimepicker-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="RELATIVE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker-relative"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Relative
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={true}
-                        className="bx--radio-button"
-                        id="datetimepicker-absolute"
-                        name="datetimepicker-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="ABSOLUTE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker-absolute"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Absolute
-                        </span>
-                      </label>
-                    </div>
-                  </fieldset>
-                </div>
-              </fieldset>
-              <div
-                data-testid="date-time-picker-datepicker"
-              >
-                <div
-                  className="iot--date-time-picker__datepicker"
-                >
-                  <div
-                    className="bx--form-item"
-                  >
-                    <div
-                      className="bx--date-picker bx--date-picker--range bx--date-picker--nolabel"
-                      onClose={[Function]}
-                    >
-                      <div
-                        className="bx--date-picker-container bx--date-picker--nolabel"
-                      >
-                        <div
-                          className="bx--date-picker-input__wrapper"
-                        >
-                          <input
-                            className="bx--date-picker__input"
-                            disabled={false}
-                            id="datetimepicker-date-picker-input-start"
-                            onChange={[Function]}
-                            onClick={[Function]}
-                            pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
-                            type="text"
-                          />
-                          <svg
-                            aria-hidden={true}
-                            className="bx--date-picker__icon"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            onClick={[Function]}
-                            preserveAspectRatio="xMidYMid meet"
-                            role="img"
-                            viewBox="0 0 32 32"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <div
-                        className="bx--date-picker-container bx--date-picker--nolabel"
-                      >
-                        <div
-                          className="bx--date-picker-input__wrapper"
-                        >
-                          <input
-                            className="bx--date-picker__input"
-                            disabled={false}
-                            id="datetimepicker-date-picker-input-end"
-                            onChange={[Function]}
-                            onClick={[Function]}
-                            pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
-                            type="text"
-                          />
-                          <svg
-                            aria-hidden={true}
-                            className="bx--date-picker__icon"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            onClick={[Function]}
-                            preserveAspectRatio="xMidYMid meet"
-                            role="img"
-                            viewBox="0 0 32 32"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <fieldset
-                  className="bx--fieldset iot--date-time-picker__menu-formgroup"
-                >
-                  <legend
-                    className="bx--label iot--date-time-picker__menu-formgroup"
-                  >
-                    
-                  </legend>
-                  <div
-                    className="iot--date-time-picker__fields-wrapper"
-                  >
-                    <div
-                      className="iot--time-picker__wrapper iot--time-picker__wrapper--with-spinner"
-                    >
-                      <div
-                        className="bx--form-item"
-                      >
-                        <label
-                          className="bx--label"
-                          htmlFor="datetimepicker-start-time"
-                        >
-                          Start time
-                        </label>
-                        <div
-                          className="bx--time-picker"
-                        >
-                          <div
-                            className="bx--time-picker__input"
-                          >
-                            <input
-                              autoComplete="off"
-                              className="bx--time-picker__input-field bx--text-input"
-                              disabled={false}
-                              id="datetimepicker-start-time"
-                              maxLength={5}
-                              onBlur={[Function]}
-                              onChange={[Function]}
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              pattern="(1[012]|[1-9]):[0-5][0-9](\\\\s)?"
-                              placeholder="hh:mm"
-                              type="text"
-                              value="12:34"
-                            />
-                          </div>
-                          <div
-                            className="iot--time-picker__controls"
-                          >
-                            <button
-                              aria-atomic="true"
-                              aria-label="Increment hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn up-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Increment hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M0 4L4 0 8 4z"
-                                />
-                              </svg>
-                            </button>
-                            <button
-                              aria-atomic="true"
-                              aria-label="Decrement hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn down-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Decrement hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 0L4 4 0 0z"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="iot--time-picker__wrapper iot--time-picker__wrapper--with-spinner"
-                    >
-                      <div
-                        className="bx--form-item"
-                      >
-                        <label
-                          className="bx--label"
-                          htmlFor="datetimepicker-end-time"
-                        >
-                          End time
-                        </label>
-                        <div
-                          className="bx--time-picker"
-                        >
-                          <div
-                            className="bx--time-picker__input"
-                          >
-                            <input
-                              autoComplete="off"
-                              className="bx--time-picker__input-field bx--text-input"
-                              disabled={false}
-                              id="datetimepicker-end-time"
-                              maxLength={5}
-                              onBlur={[Function]}
-                              onChange={[Function]}
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              pattern="(1[012]|[1-9]):[0-5][0-9](\\\\s)?"
-                              placeholder="hh:mm"
-                              type="text"
-                              value="10:49"
-                            />
-                          </div>
-                          <div
-                            className="iot--time-picker__controls"
-                          >
-                            <button
-                              aria-atomic="true"
-                              aria-label="Increment hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn up-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Increment hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M0 4L4 0 8 4z"
-                                />
-                              </svg>
-                            </button>
-                            <button
-                              aria-atomic="true"
-                              aria-label="Decrement hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn down-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Decrement hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 0L4 4 0 0z"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
-            </div>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-back bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Back
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
-          </div>
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
         </div>
       </div>
     </div>
@@ -1224,192 +194,75 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
 </div>
 `;
 
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Selected preset 1`] = `
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Light version 1`] = `
 <div
   className="storybook-container"
 >
   <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
     style={
       Object {
-        "margin": "1.5rem",
-        "width": "1056px",
+        "--wrapper-width": "20rem",
       }
     }
   >
     <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
+      className="iot--date-time-picker__box--full iot--date-time-picker__box--light"
     >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
       >
         <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
+          className="bx--tooltip--definition bx--tooltip--a11y"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
+          <button
+            aria-describedby="definition-tooltip-10"
+            className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
+            onFocus={[Function]}
+            type="button"
+          >
+            Last 30 minutes
+          </button>
           <div
-            className="bx--tooltip--definition bx--tooltip--a11y"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+            className="bx--assistive-text"
+            id="definition-tooltip-10"
+            role="tooltip"
           >
-            <button
-              aria-describedby="definition-tooltip-4"
-              className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
-              onFocus={[Function]}
-              type="button"
-            >
-              Last 12 hours
-            </button>
-            <div
-              className="bx--assistive-text"
-              id="definition-tooltip-4"
-              role="tooltip"
-            >
-              2018-10-27 19:34 to Now
-            </div>
-          </div>
-          <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
-            fill="currentColor"
-            focusable="false"
-            height={16}
-            preserveAspectRatio="xMidYMid meet"
-            role="img"
-            viewBox="0 0 32 32"
-            width={16}
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
-            />
-          </svg>
-        </div>
-        <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
-        >
-          <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <ol
-              className="bx--list--ordered"
-            >
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--current"
-              >
-                2018-10-27 19:34 to Now
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--custom"
-                onClick={[Function]}
-              >
-                Custom Range
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 30 minutes
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 1 hour
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 6 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset iot--date-time-picker__listitem--preset-selected"
-                onClick={[Function]}
-              >
-                Last 12 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 24 hours
-              </li>
-            </ol>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-cancel bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Cancel
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
+            2018-10-28 07:04 to Now
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Selected relative 1`] = `
-<div
-  className="storybook-container"
->
-  <div
-    style={
-      Object {
-        "margin": "1.5rem",
-        "width": "1056px",
-      }
-    }
-  >
-    <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
-    >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--flyout-menu iot--flyout-menu__bottom iot--flyout-menu__light"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
       >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
           onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
           tabIndex={0}
+          type="button"
         >
           <span
-            title="2018-10-28 13:10 to 2018-10-28 13:30"
+            className="bx--assistive-text"
           >
-            2018-10-28 13:10 to 2018-10-28 13:30
+            Helpful description
           </span>
           <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
             fill="currentColor"
             focusable="false"
             height={16}
@@ -1423,464 +276,27 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
               d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
             />
           </svg>
-        </div>
+        </button>
         <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
         >
           <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <div>
-              <fieldset
-                className="bx--fieldset iot--date-time-picker__menu-formgroup"
-              >
-                <legend
-                  className="bx--label iot--date-time-picker__menu-formgroup"
-                >
-                  Custom range
-                </legend>
-                <div
-                  className="bx--form-item"
-                >
-                  <fieldset
-                    className="bx--radio-button-group bx--radio-button-group--label-right"
-                  >
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={true}
-                        className="bx--radio-button"
-                        id="datetimepicker-relative"
-                        name="datetimepicker-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="RELATIVE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker-relative"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Relative
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="bx--radio-button-wrapper"
-                    >
-                      <input
-                        checked={false}
-                        className="bx--radio-button"
-                        id="datetimepicker-absolute"
-                        name="datetimepicker-radiogroup"
-                        onChange={[Function]}
-                        type="radio"
-                        value="ABSOLUTE"
-                      />
-                      <label
-                        className="bx--radio-button__label"
-                        htmlFor="datetimepicker-absolute"
-                      >
-                        <span
-                          className="bx--radio-button__appearance"
-                        />
-                        <span
-                          className=""
-                        >
-                          Absolute
-                        </span>
-                      </label>
-                    </div>
-                  </fieldset>
-                </div>
-              </fieldset>
-              <div>
-                <fieldset
-                  className="bx--fieldset iot--date-time-picker__menu-formgroup"
-                >
-                  <legend
-                    className="bx--label iot--date-time-picker__menu-formgroup"
-                  >
-                    Last
-                  </legend>
-                  <div
-                    className="iot--date-time-picker__fields-wrapper"
-                  >
-                    <div
-                      className="bx--form-item"
-                    >
-                      <div
-                        className="bx--number bx--number--helpertext"
-                      >
-                        <div
-                          className="bx--number__input-wrapper"
-                        >
-                          <input
-                            aria-describedby={null}
-                            aria-label="Numeric input field with increment and decrement buttons"
-                            disabled={false}
-                            id="datetimepicker-last-number"
-                            min={0}
-                            onChange={[Function]}
-                            pattern="[0-9]*"
-                            step={1}
-                            type="number"
-                            value={20}
-                          />
-                          <div
-                            className="bx--number__controls"
-                          >
-                            <button
-                              aria-label="Decrement number"
-                              className="bx--number__control-btn down-icon"
-                              disabled={false}
-                              onClick={[Function]}
-                              tabIndex="-1"
-                              title="Decrement number"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={16}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 32 32"
-                                width={16}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 15H24V17H8z"
-                                />
-                              </svg>
-                            </button>
-                            <div
-                              className="bx--number__rule-divider"
-                            />
-                            <button
-                              aria-label="Increment number"
-                              className="bx--number__control-btn up-icon"
-                              disabled={false}
-                              onClick={[Function]}
-                              tabIndex="-1"
-                              title="Increment number"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={16}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 32 32"
-                                width={16}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M17 15L17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"
-                                />
-                              </svg>
-                            </button>
-                            <div
-                              className="bx--number__rule-divider"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="bx--form-item"
-                    >
-                      <div
-                        className="bx--select"
-                      >
-                        <label
-                          className="bx--label bx--visually-hidden"
-                          htmlFor="datetimepicker-last-interval"
-                        >
-                          Select
-                        </label>
-                        <div
-                          className="bx--select-input__wrapper"
-                          data-invalid={null}
-                        >
-                          <select
-                            className="bx--select-input"
-                            defaultValue="MINUTES"
-                            id="datetimepicker-last-interval"
-                            onChange={[Function]}
-                          >
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="MINUTES"
-                            >
-                              minutes
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="HOURS"
-                            >
-                              hours
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="DAYS"
-                            >
-                              days
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="WEEKS"
-                            >
-                              weeks
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="MONTHS"
-                            >
-                              months
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="YEARS"
-                            >
-                              years
-                            </option>
-                          </select>
-                          <svg
-                            aria-hidden={true}
-                            className="bx--select__arrow"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            preserveAspectRatio="xMidYMid meet"
-                            viewBox="0 0 16 16"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-                <fieldset
-                  className="bx--fieldset iot--date-time-picker__menu-formgroup"
-                >
-                  <legend
-                    className="bx--label iot--date-time-picker__menu-formgroup"
-                  >
-                    Relative to
-                  </legend>
-                  <div
-                    className="iot--date-time-picker__fields-wrapper"
-                  >
-                    <div
-                      className="bx--form-item"
-                    >
-                      <div
-                        className="bx--select"
-                      >
-                        <label
-                          className="bx--label bx--visually-hidden"
-                          htmlFor="datetimepicker-relative-to-when"
-                        >
-                          Select
-                        </label>
-                        <div
-                          className="bx--select-input__wrapper"
-                          data-invalid={null}
-                        >
-                          <select
-                            className="bx--select-input"
-                            defaultValue="TODAY"
-                            id="datetimepicker-relative-to-when"
-                            onChange={[Function]}
-                          >
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="TODAY"
-                            >
-                              Today
-                            </option>
-                            <option
-                              className="bx--select-option"
-                              disabled={false}
-                              hidden={false}
-                              value="YESTERDAY"
-                            >
-                              Yesterday
-                            </option>
-                          </select>
-                          <svg
-                            aria-hidden={true}
-                            className="bx--select__arrow"
-                            fill="currentColor"
-                            focusable="false"
-                            height={16}
-                            preserveAspectRatio="xMidYMid meet"
-                            viewBox="0 0 16 16"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="iot--time-picker__wrapper iot--time-picker__wrapper--with-spinner"
-                    >
-                      <div
-                        className="bx--form-item"
-                      >
-                        <div
-                          className="bx--time-picker"
-                        >
-                          <div
-                            className="bx--time-picker__input"
-                          >
-                            <input
-                              autoComplete="off"
-                              className="bx--time-picker__input-field bx--text-input"
-                              disabled={false}
-                              id="datetimepicker-relative-to-time"
-                              maxLength={5}
-                              onBlur={[Function]}
-                              onChange={[Function]}
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              pattern="(1[012]|[1-9]):[0-5][0-9](\\\\s)?"
-                              placeholder="hh:mm"
-                              type="text"
-                              value="13:30"
-                            />
-                          </div>
-                          <div
-                            className="iot--time-picker__controls"
-                          >
-                            <button
-                              aria-atomic="true"
-                              aria-label="Increment hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn up-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Increment hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="up-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M0 4L4 0 8 4z"
-                                />
-                              </svg>
-                            </button>
-                            <button
-                              aria-atomic="true"
-                              aria-label="Decrement hours"
-                              aria-live="polite"
-                              className="iot--time-picker__controls--btn down-icon"
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onMouseOut={[Function]}
-                              onMouseOver={[Function]}
-                              title="Decrement hours"
-                              type="button"
-                            >
-                              <svg
-                                aria-hidden={true}
-                                className="down-icon"
-                                fill="currentColor"
-                                focusable="false"
-                                height={4}
-                                preserveAspectRatio="xMidYMid meet"
-                                viewBox="0 0 8 4"
-                                width={8}
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8 0L4 4 0 0z"
-                                />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
-            </div>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-back bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Back
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
-          </div>
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
         </div>
       </div>
     </div>
@@ -1888,58 +304,59 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
 </div>
 `;
 
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Without a custom range link 1`] = `
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Locale 1`] = `
 <div
   className="storybook-container"
 >
   <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker25-iot--date-time-picker__wrapper"
     style={
       Object {
-        "margin": "1.5rem",
-        "width": "1056px",
+        "--wrapper-width": "20rem",
       }
     }
   >
     <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
+      className="iot--date-time-picker__box--full"
     >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
       >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
+        <span
+          title="01/04/2020 12:34 to 06/04/2020 10:49"
         >
-          <div
-            className="bx--tooltip--definition bx--tooltip--a11y"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+          01/04/2020 12:34 to 06/04/2020 10:49
+        </span>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
           >
-            <button
-              aria-describedby="definition-tooltip-8"
-              className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
-              onFocus={[Function]}
-              type="button"
-            >
-              Last 12 hours
-            </button>
-            <div
-              className="bx--assistive-text"
-              id="definition-tooltip-8"
-              role="tooltip"
-            >
-              2018-10-27 19:34 to Now
-            </div>
-          </div>
+            Helpful description
+          </span>
           <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
             fill="currentColor"
             focusable="false"
             height={16}
@@ -1953,78 +370,27 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
               d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
             />
           </svg>
-        </div>
+        </button>
         <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
         >
           <div
-            className="iot--date-time-picker__menu-scroll"
-          >
-            <ol
-              className="bx--list--ordered"
-            >
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--current"
-              >
-                2018-10-27 19:34 to Now
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 30 minutes
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 1 hour
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 6 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset iot--date-time-picker__listitem--preset-selected"
-                onClick={[Function]}
-              >
-                Last 12 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 24 hours
-              </li>
-            </ol>
-          </div>
-          <div
-            className="iot--date-time-picker__menu-btn-set"
-          >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-cancel bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Cancel
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
-          </div>
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
         </div>
       </div>
     </div>
@@ -2032,58 +398,59 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
 </div>
 `;
 
-exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTime Picker Without a relative option 1`] = `
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Selected absolute 1`] = `
 <div
   className="storybook-container"
 >
   <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
     style={
       Object {
-        "margin": "1.5rem",
-        "width": "1056px",
+        "--wrapper-width": "20rem",
       }
     }
   >
     <div
-      className="iot--date-time-picker__wrapper"
-      data-testid="date-time-picker"
-      id="datetimepicker-iot--date-time-picker__wrapper"
+      className="iot--date-time-picker__box--full"
     >
       <div
-        className="iot--date-time-picker__box "
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
       >
-        <div
-          className="iot--date-time-picker__field"
-          data-testid="date-time-picker__field"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
+        <span
+          title="2020-04-01 12:34 to 2020-04-06 10:49"
         >
-          <div
-            className="bx--tooltip--definition bx--tooltip--a11y"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+          2020-04-01 12:34 to 2020-04-06 10:49
+        </span>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
           >
-            <button
-              aria-describedby="definition-tooltip-6"
-              className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
-              onFocus={[Function]}
-              type="button"
-            >
-              Last 12 hours
-            </button>
-            <div
-              className="bx--assistive-text"
-              id="definition-tooltip-6"
-              role="tooltip"
-            >
-              2018-10-27 19:34 to Now
-            </div>
-          </div>
+            Helpful description
+          </span>
           <svg
-            aria-label="Calendar"
-            className="iot--date-time-picker__icon"
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
             fill="currentColor"
             focusable="false"
             height={16}
@@ -2097,84 +464,451 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/D
               d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
             />
           </svg>
-        </div>
+        </button>
         <div
-          className="iot--date-time-picker__menu"
-          role="listbox"
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
         >
           <div
-            className="iot--date-time-picker__menu-scroll"
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Selected preset 1`] = `
+<div
+  className="storybook-container"
+>
+  <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
+    style={
+      Object {
+        "--wrapper-width": "20rem",
+      }
+    }
+  >
+    <div
+      className="iot--date-time-picker__box--full"
+    >
+      <div
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
+      >
+        <div
+          className="bx--tooltip--definition bx--tooltip--a11y"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <button
+            aria-describedby="definition-tooltip-4"
+            className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
+            onFocus={[Function]}
+            type="button"
           >
-            <ol
-              className="bx--list--ordered"
-            >
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--current"
-              >
-                2018-10-27 19:34 to Now
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--custom"
-                onClick={[Function]}
-              >
-                Custom Range
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 30 minutes
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 1 hour
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 6 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset iot--date-time-picker__listitem--preset-selected"
-                onClick={[Function]}
-              >
-                Last 12 hours
-              </li>
-              <li
-                className="bx--list__item iot--date-time-picker__listitem iot--date-time-picker__listitem--preset"
-                onClick={[Function]}
-              >
-                Last 24 hours
-              </li>
-            </ol>
-          </div>
+            Last 12 hours
+          </button>
           <div
-            className="iot--date-time-picker__menu-btn-set"
+            className="bx--assistive-text"
+            id="definition-tooltip-4"
+            role="tooltip"
           >
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-cancel bx--btn bx--btn--secondary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Cancel
-            </button>
-            <button
-              aria-pressed={null}
-              className="iot--date-time-picker__menu-btn iot--date-time-picker__menu-btn-apply bx--btn bx--btn--primary"
-              disabled={false}
-              onClick={[Function]}
-              tabIndex={0}
-              type="button"
-            >
-              Apply
-            </button>
+            2018-10-27 19:34 to Now
           </div>
+        </div>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
+          >
+            Helpful description
+          </span>
+          <svg
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
+            fill="currentColor"
+            focusable="false"
+            height={16}
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 32 32"
+            width={16}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
+            />
+          </svg>
+        </button>
+        <div
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
+        >
+          <div
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Selected relative 1`] = `
+<div
+  className="storybook-container"
+>
+  <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
+    style={
+      Object {
+        "--wrapper-width": "20rem",
+      }
+    }
+  >
+    <div
+      className="iot--date-time-picker__box--full"
+    >
+      <div
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
+      >
+        <span
+          title="2018-10-28 13:10 to 2018-10-28 13:30"
+        >
+          2018-10-28 13:10 to 2018-10-28 13:30
+        </span>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
+          >
+            Helpful description
+          </span>
+          <svg
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
+            fill="currentColor"
+            focusable="false"
+            height={16}
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 32 32"
+            width={16}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
+            />
+          </svg>
+        </button>
+        <div
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
+        >
+          <div
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Without a custom range link 1`] = `
+<div
+  className="storybook-container"
+>
+  <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
+    style={
+      Object {
+        "--wrapper-width": "20rem",
+      }
+    }
+  >
+    <div
+      className="iot--date-time-picker__box--full"
+    >
+      <div
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
+      >
+        <div
+          className="bx--tooltip--definition bx--tooltip--a11y"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <button
+            aria-describedby="definition-tooltip-8"
+            className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
+            onFocus={[Function]}
+            type="button"
+          >
+            Last 12 hours
+          </button>
+          <div
+            className="bx--assistive-text"
+            id="definition-tooltip-8"
+            role="tooltip"
+          >
+            2018-10-27 19:34 to Now
+          </div>
+        </div>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
+          >
+            Helpful description
+          </span>
+          <svg
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
+            fill="currentColor"
+            focusable="false"
+            height={16}
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 32 32"
+            width={16}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
+            />
+          </svg>
+        </button>
+        <div
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
+        >
+          <div
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/DateTimePicker Without a relative option 1`] = `
+<div
+  className="storybook-container"
+>
+  <div
+    className="iot--date-time-picker__wrapper"
+    data-testid="date-time-picker"
+    id="datetimepicker-iot--date-time-picker__wrapper"
+    style={
+      Object {
+        "--wrapper-width": "20rem",
+      }
+    }
+  >
+    <div
+      className="iot--date-time-picker__box--full"
+    >
+      <div
+        className="iot--date-time-picker__field"
+        data-testid="date-time-picker__field"
+      >
+        <div
+          className="bx--tooltip--definition bx--tooltip--a11y"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <button
+            aria-describedby="definition-tooltip-6"
+            className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
+            onFocus={[Function]}
+            type="button"
+          >
+            Last 12 hours
+          </button>
+          <div
+            className="bx--assistive-text"
+            id="definition-tooltip-6"
+            role="tooltip"
+          >
+            2018-10-27 19:34 to Now
+          </div>
+        </div>
+      </div>
+      <div
+        className="iot--flyout-menu iot--flyout-menu__bottom"
+        style={
+          Object {
+            "--tooltip-visibility": "hidden",
+          }
+        }
+      >
+        <button
+          aria-label="Helpful description"
+          className="iot--flyout-menu--trigger-button iot--btn bx--btn bx--btn--ghost bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--tooltip--top bx--tooltip--align-center"
+          data-testid="flyout-menu-button"
+          disabled={false}
+          onClick={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="bx--assistive-text"
+          >
+            Helpful description
+          </span>
+          <svg
+            aria-hidden="true"
+            aria-label="Helpful description"
+            className="bx--btn__icon"
+            fill="currentColor"
+            focusable="false"
+            height={16}
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 32 32"
+            width={16}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26,4h-4V2h-2v2h-8V2h-2v2H6C4.9,4,4,4.9,4,6v20c0,1.1,0.9,2,2,2h20c1.1,0,2-0.9,2-2V6C28,4.9,27.1,4,26,4z M26,26H6V12h20	V26z M26,10H6V6h4v2h2V6h8v2h2V6h4V10z"
+            />
+          </svg>
+        </button>
+        <div
+          className="iot--flyout-menu--tooltip-anchor"
+          data-floating-menu-container={true}
+        >
+          <div
+            aria-describedby={null}
+            aria-expanded={false}
+            aria-label="Helpful description"
+            className="bx--tooltip__label"
+            id="test-trigger-id-2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            role="button"
+            tabIndex={0}
+          />
         </div>
       </div>
     </div>
