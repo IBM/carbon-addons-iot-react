@@ -68,7 +68,7 @@
     "@types/node": "11.13.0",
     "ai-apps-monorepo-utils": "^2.145.1-next.0",
     "babel-loader": "^8.2.2",
-    "carbon-components-angular": "4.49.0",
+    "carbon-components-angular": "4.53.3",
     "codelyzer": "5.0.0",
     "core-js": "2.6.11",
     "element-closest-polyfill": "1.0.0",
