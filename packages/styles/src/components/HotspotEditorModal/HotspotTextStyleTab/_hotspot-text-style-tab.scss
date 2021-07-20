@@ -6,6 +6,9 @@ $border-radius: 5px;
 .#{$iot-prefix}--hotspot-text-style-tab {
   &__form {
     @include vertical-form();
+    .#{$prefix}--number input[type='number'] {
+      padding-right: 5rem;
+    }
   }
 
   &__text-style {
@@ -28,6 +31,10 @@ $border-radius: 5px;
 
     .#{$prefix}--dropdown__wrapper.#{$prefix}--list-box__wrapper {
       width: 100%;
+    }
+
+    .#{$prefix}--form-item {
+      min-width: 10rem;
     }
   }
 }

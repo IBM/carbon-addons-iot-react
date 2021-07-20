@@ -1426,6 +1426,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Jeff McNeil
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1445,14 +1453,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1491,6 +1491,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Amed Rosario
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1510,14 +1518,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1556,6 +1556,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Michael Conforto is a super duper long name that will get cut off
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1575,14 +1583,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1621,6 +1621,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Pete Alonso
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1640,14 +1648,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1686,6 +1686,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Wilson Ramos
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1705,14 +1713,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1751,6 +1751,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Robinson Cano
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1770,14 +1778,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1816,6 +1816,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 JD Davis
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1835,14 +1843,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1881,6 +1881,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Brandon Nimmo
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1900,14 +1908,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -1946,6 +1946,14 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                 Jacob Degrom
               </div>
               <div
+                className="iot--list-item--nesting-offset"
+                style={
+                  Object {
+                    "width": "30px",
+                  }
+                }
+              />
+              <div
                 title="Drag handle"
               >
                 <svg
@@ -1965,14 +1973,6 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
                   />
                 </svg>
               </div>
-              <div
-                className="iot--list-item--nesting-offset"
-                style={
-                  Object {
-                    "width": "60px",
-                  }
-                }
-              />
               <div
                 className="iot--list-item--content"
               >
@@ -2724,7 +2724,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2764,7 +2764,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2804,7 +2804,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2844,7 +2844,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2884,7 +2884,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2924,7 +2924,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -2964,7 +2964,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3004,7 +3004,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3044,7 +3044,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3137,7 +3137,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3177,7 +3177,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3217,7 +3217,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3257,7 +3257,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3297,7 +3297,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3337,7 +3337,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3377,7 +3377,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3417,7 +3417,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3457,7 +3457,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3497,7 +3497,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4144,7 +4144,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4184,7 +4184,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4224,7 +4224,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4264,7 +4264,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4304,7 +4304,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4344,7 +4344,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4384,7 +4384,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4424,7 +4424,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4464,7 +4464,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4745,7 +4745,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4785,7 +4785,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4825,7 +4825,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4865,7 +4865,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4905,7 +4905,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4945,7 +4945,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -4985,7 +4985,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -5025,7 +5025,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -5065,7 +5065,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/H
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />

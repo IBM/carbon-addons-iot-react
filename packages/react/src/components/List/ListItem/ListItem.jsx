@@ -154,8 +154,10 @@ const ListItem = ({
       <div
         role="button"
         tabIndex={0}
-        className={`${iotPrefix}--list-item--expand-icon`}
-        onClick={handleExpansionClick}
+        className={classnames(`${iotPrefix}--list-item--expand-icon`, {
+          [`${iotPrefix}--list-item--expand-icon__disabled`]: disabled,
+        })}
+        onClick={!disabled ? handleExpansionClick : undefined}
         data-testid="expand-icon"
         aria-label={expanded ? mergedI18n.close : mergedI18n.expand}
         title={expanded ? mergedI18n.close : mergedI18n.expand}
@@ -205,7 +207,9 @@ const ListItem = ({
     editingStyle ? (
       <div title={mergedI18n.dragHandle}>
         <Draggable16
-          className={classnames(`${iotPrefix}--list-item--handle`)}
+          className={classnames(`${iotPrefix}--list-item--handle`, {
+            [`${iotPrefix}--list-item--handle__disabled`]: disabled,
+          })}
           data-testid="list-item-editable"
         />
       </div>
@@ -231,8 +235,8 @@ const ListItem = ({
       }}
     >
       {renderDragPreview()}
-      {dragIcon()}
       {renderNestingOffset()}
+      {dragIcon()}
       {renderExpander()}
       <div
         className={classnames(

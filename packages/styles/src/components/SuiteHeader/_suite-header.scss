@@ -297,3 +297,10 @@
     }
   }
 }
+
+.#{$iot-prefix}--session-timeout-modal {
+  z-index: 9999;
+  .#{$prefix}--modal-header .#{$prefix}--modal-close {
+    display: none;
+  }
+}

@@ -4,8 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   font-size: carbon--type-scale(1);
-  height: 100%;
-  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  row-gap: var(--gauge-row-gap);
+  column-gap: $spacing-05;
 }
 
 .#{$iot-prefix}--gauge {
@@ -40,32 +42,20 @@
 }
 
 .#{$iot-prefix}--gauge-value-sm {
-  &.#{$iot-prefix}--gauge-value__centered {
-    transform: translateY(0.75rem);
-  }
-
   tspan:first-of-type {
     font-size: 1rem;
   }
 }
 
 .#{$iot-prefix}--gauge-value-md {
-  &.#{$iot-prefix}--gauge-value__centered {
-    transform: translateY(0.75rem);
-  }
-
   tspan:first-of-type {
     font-size: 1.25rem;
   }
 }
 
 .#{$iot-prefix}--gauge-value-lg {
-  &.#{$iot-prefix}--gauge-value__centered {
-    transform: translateY(1rem);
-  }
-
   tspan:first-of-type {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -74,11 +64,9 @@
 }
 
 .#{$iot-prefix}--gauge-trend {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: auto auto auto 0;
   padding-left: $spacing-05;
+  display: flex;
+  align-items: center;
 
   & p::before {
     border-left: 0.3rem solid transparent;

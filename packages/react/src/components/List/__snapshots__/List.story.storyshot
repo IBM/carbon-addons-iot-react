@@ -882,7 +882,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -923,7 +923,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -964,7 +964,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1005,7 +1005,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1046,7 +1046,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1087,7 +1087,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1128,7 +1128,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1169,7 +1169,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1210,7 +1210,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1251,7 +1251,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1398,7 +1398,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1439,7 +1439,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1480,7 +1480,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1521,7 +1521,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1562,7 +1562,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1603,7 +1603,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1644,7 +1644,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1685,7 +1685,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -1726,7 +1726,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "60px",
+                  "width": "30px",
                 }
               }
             />
@@ -3039,7 +3039,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3098,7 +3098,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3157,7 +3157,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3216,7 +3216,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3275,7 +3275,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3334,7 +3334,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3393,7 +3393,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3452,7 +3452,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3511,7 +3511,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />
@@ -3570,7 +3570,7 @@ exports[`Storybook Snapshot tests and console checks Storyshots 1 - Watson IoT/L
               className="iot--list-item--nesting-offset"
               style={
                 Object {
-                  "width": "120px",
+                  "width": "90px",
                 }
               }
             />

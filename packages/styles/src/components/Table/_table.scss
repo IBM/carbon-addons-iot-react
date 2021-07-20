@@ -100,3 +100,10 @@ button.#{$prefix}--btn.#{$iot-prefix}--tooltip-svg-wrapper.#{$prefix}--btn--ghos
     @include box-shadow;
   }
 }
+
+// regression fix for tiny expand chrevron on some expandable table rows
+.#{$prefix}--data-table thead th.#{$prefix}--table-expand,
+.#{$prefix}--data-table tbody td.#{$prefix}--table-expand {
+  height: $spacing-07;
+  width: $spacing-08;
+}

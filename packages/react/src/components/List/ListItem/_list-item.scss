@@ -95,10 +95,20 @@
   align-items: center;
   overflow: hidden;
 
+  &:focus {
+    outline: 2px solid $focus;
+    outline-offset: -$spacing-01;
+  }
+
   &--handle {
     flex-shrink: 0;
     fill: $inverse-02;
-    margin-right: $spacing-03;
+    margin-right: $spacing-04;
+
+    &__disabled {
+      fill: $disabled-02;
+      cursor: not-allowed;
+    }
   }
 
   &__large {
@@ -130,7 +140,17 @@
   &--expand-icon {
     cursor: pointer;
     padding: $spacing-01;
-    margin-right: $spacing-04;
+    margin-right: $spacing-04 - $spacing-01; // account for padding
+
+    &:focus {
+      outline: 2px solid $focus;
+    }
+
+    &__disabled {
+      fill: $disabled-02;
+      color: $disabled-02;
+      cursor: not-allowed;
+    }
   }
 
   &--content {

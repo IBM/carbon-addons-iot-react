@@ -86,6 +86,10 @@
       }
     }
 
+    &__icon {
+      fill: $ui-01;
+    }
+
     .#{$prefix}--header__submenu.#{$prefix}--header-action-btn {
       padding: 0;
 

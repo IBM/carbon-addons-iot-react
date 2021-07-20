@@ -15,6 +15,10 @@
       min-width: 12.75rem;
     }
   }
+
+  .#{$prefix}--table-header-label {
+    flex-wrap: wrap;
+  }
 }
 
 .#{$iot-prefix}--column-header-row--table-row {
